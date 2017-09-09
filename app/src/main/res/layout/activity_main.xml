@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.w2weekendlistdialogsms.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Fragment"
+        android:id="@+id/btnDialogFrag"
+        android:onClick="createDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:id="@+id/btnAlertDiag"
+        android:onClick="createDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Alert Dialog"
+        android:id="@+id/btnAlertDiagCustom"
+        android:onClick="createDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Alert Dialog"
+        android:id="@+id/btnAlertDiagList"
+        android:onClick="createDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send Notification"
+        android:id="@+id/btnNotification"
+        android:onClick="sendNotification"/>
+    <EditText
+        android:hint="Recipient"
+        android:id="@+id/etRecipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Message"
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send Notification"
+        android:id="@+id/btnSms"
+        android:onClick="sendMessage"/>
+
+
+</LinearLayout>
